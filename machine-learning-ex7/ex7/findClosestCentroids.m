@@ -22,6 +22,7 @@ idx = zeros(size(X,1), 1);
 %
 
 for i=1:size(X,1)
+
     idx(i) = findClosestCentroid(X(i,:),centroids);
     
 
